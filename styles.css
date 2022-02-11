@@ -1,0 +1,30 @@
+.flex-container-grow {
+    display: flex;
+}
+
+.flex-container-grow>div {
+    background: bisque;
+    border: 2px solid rgb(255, 181, 91);
+    height: 100px;
+    flex: 1 1 0%;
+}
+
+.flex-container-grow .two {
+    flex: 2 1 0%;
+}
+
+.flex-container-shrink {
+    display: flex;
+}
+
+.flex-container-shrink>div {
+    background: rgb(201, 255, 196);
+    border: 2px solid rgb(91, 255, 91);
+    height: 100px;
+    width: 150px;
+    flex: 1 1 auto;
+}
+
+.flex-container-shrink .five {
+    flex-shrink: 0;
+}
